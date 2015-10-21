@@ -219,3 +219,29 @@ Infected files: 0
 Data scanned: 1088.30 MB
 Data read: 1137.05 MB (ratio 0.96:1)
 Time: 64.876 sec (1 m 4 s)
+
+-------------------------------------------------------------------------------
+
+
+----------- SCAN SUMMARY -----------
+Known viruses: 4033246
+Engine version: 0.98.7
+Scanned directories: 2815
+Scanned files: 37804
+Infected files: 0
+Data scanned: 1892.05 MB
+Data read: 1874.51 MB (ratio 1.01:1)
+Time: 94.326 sec (1 m 34 s)
+
+-------------------------------------------------------------------------------
+
+
+----------- SCAN SUMMARY -----------
+Known viruses: 4033246
+Engine version: 0.98.7
+Scanned directories: 2815
+Scanned files: 38055
+Infected files: 0
+Data scanned: 1918.74 MB
+Data read: 1889.84 MB (ratio 1.02:1)
+Time: 97.319 sec (1 m 37 s)
