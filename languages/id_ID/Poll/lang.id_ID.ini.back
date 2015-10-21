@@ -1,0 +1,194 @@
+[resource]
+
+
+;	COMMON
+
+
+common_delete_title2			              	=	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>APakah anda yakin ingin menghapus ?"
+common_add_group					                =	"Kelompok Baru"
+common_metainfo_title				              =	"Informasi Meta"
+poll_tooltip_notification_title		        =	"Kolom ini memiliki tooltip !"
+common_open_calender				              =	"Buka Kalender"
+
+
+;	FOR POLL GROUP
+
+
+Member_Access_deny_desc 			            = "<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Anda tidak memiliki izin tuntuk mengakses halaman ini."
+poll_list_title						                =	"Daftar Kelompok Pemilihan"
+
+guestbook_page_save					              =	"Simpan"
+group_add_success					                =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Kelompok berhasil ditambahkan."
+group_edit_success					              =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Kelompok berhasil diupdate."
+id_not_found						                  =	"ID tidak ditemukan"
+	
+pool_group_page_add					              =	"tambahkan Kelompok Baru"
+pool_group_page_edit				              =	"Edit kelompok pemilihan"
+poll_group_cannot_delete_name		          =	"Kelompok <b>%s</b> tidak bisa dihapus :<br />"
+poll_group_has_cat					              =	"<li style="list-style:none"><span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Ini memiliki kategori</li>"
+poll_cat_has_subcat					              =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Kategori memiliki sub kategori<br />"
+poll_group_has_poll					              =	"<li style="list-style:none"><span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Ini meiliki pemilihan</li><br />"
+group_cannot_delete					              = "Jadi <b>%s</b> tidak bisa dihapus<br />"
+group_single_cannot_delete			          =	"Kelompok tidak bisa dihapus :<br />"
+poll_group_cannot_delete			            =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Kelompok <b>%s</b>tidak bisa dihapus"
+category_delete_btn				              	=	"Delete this category"
+poll_cat_cannot_delete				            =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Category <b>%s</b>tidak bisa dihapus"
+poll_cat_has_poll					                =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Kategori memiliki pemilihan<br />"
+poll_group_err					                	=	"Tidak ada kategori di bawah kelompok ini"
+poll_group_selected_err				            =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Silahkan pilih item"
+
+poll_general_info 					              =	"Informasi Umum"
+poll_category_manage				              =	"Manajemen Kategori"
+poll_page_manage					                =	"Manajemen Pemilihan"
+poll_file_manage					                =	"Manajemen File"
+poll_group_hour_duration			            =	"(Di sini nilai '0 'berarti suara tidak terbatas)"
+
+;Category Information
+poll_general_category_info			          =	"Informasi umum dari Kategori"
+poll_latest_category_info			            =	"Informasi terbaru dari Kategori"
+poll_featured_category_info			          =	"Unggulan Informasi Kategori"
+
+;Poll Information
+poll_general_poll_info				            =	"Informasi Umum Pemilihan"
+poll_latest_poll_info				              =	"Informasi Terbaru dari Pemilihan"
+poll_featured_poll_info				            =	"Informasi Poll Unggulan"
+poll_thumb_info					                	=	"Informasi Foto Kecil"
+only_for_image						                =	"Hanya untuk foto galeri"
+
+;File Information
+poll_general_file_info				            =	"Informasi umum dari file"
+
+category_language				                	=	"Lihat/Kelola Kategori : "
+page_language					                  	=	"Lihat/Kelola Pemilihan : "
+
+poll_id								                    = "Id"
+poll_group_name						                =	"Nama Kelompok"
+poll_cat_and_poll					                =	"Lihat Kategori | Pemilihan"
+poll_click_view_product				            =	"Lihat semua item dari %s"
+poll_status							                  =	"Status"
+poll_action							                  =	"Aksi"
+
+zero_pic_show						                  =	"(Di sini nilai '0 'adalah tak terhingga jumlah gambar menjadi pertunjukan.)"
+save_new_group						                =	"Tambah Kelompok"
+update_group					                  	=	"Update Galeri"
+
+
+;	FOR POLL CATEGORY
+
+
+poll_category_list_page_name		          =	"Daftar Kategori"
+poll_category_list_page_new			          =	"Kategori Baru"
+poll_category_list_page_id			          =	"ID"
+poll_category_list_page_group	          	=	"Nama Kelompok"
+poll_category_list_page_thumb		          =	"Thumb"
+poll_category_list_page_cat_name	        =	"Nama Kategori"
+poll_category_page_info			            	=	"Informasi Umum"
+poll_category_add_page_save		          	=	"Simpan Kategori"
+poll_cat_tree_root					              =	"Root"
+poll_cat_tree					                   	=	"Pohon Kategori"
+poll_cat_add_success				              =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Kategori berhasil diperbarui."
+poll_cat_edit_success				              =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Kategori berhasil diperbarui."
+poll_category_page_dialog			            =	"Pengelola File Unggah"
+poll_category_page_insert			            =	"Sisipkan File"
+poll_category_list_edit_title		          =	"Edit Kategori"
+poll_category_update				              =	"Update Category"
+group_id_selected_err				              =	"<span class=\'ui-icon ui-icon-alert\' style=\'float:left; margin:0 0px 0px 0;\'></span>Silahkan Pilih Kelompok"
+insert_selected_file_err			            =	"<span class=\'ui-icon ui-icon-alert\' style=\'float:left; margin:0 0px 0px 0;\'></span>Silahkan pilih file"
+cat_tree_err						                  =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Pohon kategori Error"
+category_same_parent_desc			            =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Induk kategori tidak boleh sama"
+poll_parent_cannot_update			            =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Induk kategori dari <b>%s</b> tidak bisa diupdate"
+category_poll_cannot_update			          =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Kategori dari<b>%s</b> tidak bisa diupdate"
+own_sub_category					                =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Induk tidak bisa di sub kategori itu sendiri"
+poll_category_list_page_cat_poll	        =	"Poll"
+category_zero_order_success		          	=	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Kategori berhasil disimpan."
+category_zero_order_err				            =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Urutan Kategori tidak boleh Nol!"
+poll_select_group					                =	"Select a Group"
+common_select_category_title		          =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Silahan pilih item"
+
+
+;	FOR POLL
+
+
+poll_page_insert					                =	"Sisipkan file"
+poll_page_dialog					                =	"Pengelola file unggah"
+poll_answer_label					                =	"Jawab :"
+answer_can_not_saved			              	=	"%s can not be saved<br />"
+poll_add_success					                =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Poll has been added successfully"
+poll_poll_list_page_name		            	=	"Daftar Pemilihan"
+poll_poll_list_page_new				            =	"Pemilihan Baru"
+poll_poll_list_id				                	=	"ID"
+poll_poll_list_cat					              =	"Kategori"
+poll_poll_list_thumb				              =	"Foto Kecil"
+poll_poll_list_question				            =	"Pertanyaan"
+poll_poll_list_answer_no			            =	"Jawaban"
+poll_add_page_name					              =	"Tambah Pemilihan Baru"
+poll_add_page_info					              =	"Informasi Umum"
+poll_add_page_save					              =	"Simpan Pemilihan"
+poll_edit_page_name					              =	"Edit Pemilihan"
+poll_edit_page_info					              =	"Informasi Umum"
+poll_edit_page_save				              	=	"Perbarui Pemilihan"
+poll_poll_list_answer				              = "Jawaban"
+poll_poll_list_answer_vote			          =	"Voting"
+poll_poll_list_answer_order			          =	"Urutan"
+poll_edited_success				              	=	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Pemilihan berhasil diperbarui"
+poll_answer_add_new				              	=	"Tambahkan Jawaban Baru"
+poll_question_cannot_delete			          =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Pertanyaan tidak bisa dihapus<br />"
+poll_question_all_cannot_delete		        =	"Pertanyaan <b>%s</b> tidak bisa dihapus karena :<br />"
+poll_answer_cannot_delete			            =	"<li style="list-style:none"><span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Jawaban <b>%s</b> tidak bisa dihapus</li><br />"
+poll_poll_order_all_success			          =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Ururtan pemilihan berhasil disimpan"
+poll_answer_orderall_success	          	=	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Urutan jawaban berhasil disimpan"
+poll_poll_list_delete_confirm		          =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Apaakah Anda ingin mengahapus pemilihan berikut dengan jawabannya ?"
+poll_poll_list_delete_all_confirm	        =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Apakah Anda inign menghapus Pemilihan terpilih berikut dengan semua jawabannya ?"
+poll_poll_selected_err			            	=	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Silahkan pilih pemilihan !"
+poll_poll_delete_confirm_btn		          =	"Hapus pemilihan ini"
+poll_answer_delete_confirm			          =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Apakah Anda yakin ingin menghapus jawaban?"
+
+
+;	FILE UPLOAD MANAGER
+
+
+file_delete_success			              		=	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>File "%s" berhasil dihapus"
+file_delete_err						                =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>File "%s" tidak bisa dihapus !"
+File_upload_success					              =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>File berhasil diunggah"
+File_upload_ext_err					              =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Ekstensi file "%s" tidak dizinkan untuk diunggah !"
+poll_file_manager_page_message		        =	"Upload upto 100 file gambar (% s), masing-masing memiliki ukuran maksimum"
+poll_file_manager_page_info			          =	"Unggah File"
+poll_file_manager_page_dialog		          =	"Pengelola File Unggah"
+poll_file_manager_file_format 		        =	"Format File"	
+				
+
+;	POLL NAVIGATION MENU
+
+
+poll_menu_title						                =	"Informasi Pemilihan"
+poll_menu1						                  	=	"Pengelolaan Kelompok"
+poll_menu1-1						                  =	"tambah Kelompok"
+poll_menu2							                  =	"Pengelolaan Kategori"
+poll_menu2-2						                  =	"Tambah Kategori"
+poll_menu3							                  =	"Pengelolaan Pemilihan"
+poll_menu3-3						                  =	"Tambah Pemilihan"
+				
+
+;	FOR FRONTEND
+
+
+poll_poll_list_title				              =	"Pemilihan"
+poll_poll_vote_radio_selected_err	        =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Silahkan centang suara pilihan Anda!"
+poll_poll_vote_check_selected_err	        =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>Silahkan centang suara pilihan Anda !"
+poll_poll_list_vote_title			            =	"Pilih"
+poll_poll_list_result_title			          =	"Hasil :"
+poll_vote_twice_error				              =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Kamu sudah memilih! Suara Anda tidak dihitung."
+poll_answer_num_views_increase_error      =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Suara Anda untuk ID pemilihan %s tidak dihitung"
+poll_vote_twice_hours_error		          	=	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Anda tidak bisa memilih sampai %s, suara Anda tidak dihitung."
+poll_poll_vote_cast_single_title	        =	"Suara"
+poll_poll_vote_cast_many_title		        =	"Suara"
+poll_no_comment_available		            	=	"Tidak ada komentar."
+poll_commented_on					                =	"Komentar diaktifkan"
+poll_add_comment_title				            =	"Tambah komentar"
+poll_comment_title					              =	"Komentar"
+poll_single_comment_title			            =	"Komentar"
+poll_single_comment_title_title		        =	"Judul"
+poll_vote_cast_success				            =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Suara Anda berhasil dihitung"
+poll_category_unpublished_page_title	    =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Kategori ini tidak diterbitkan"
+poll_total_vote_cast_title			          =	"Total <b>%s</b> Suara"
+poll_date_format					                =	"%d-%m-%Y [%I:%M %p]"

@@ -1,0 +1,5 @@
+error_log
+_SESSION/**/*
+temp/**/*
+application/**/*
+cgi-bin/**/*

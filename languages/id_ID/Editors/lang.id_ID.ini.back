@@ -1,0 +1,33 @@
+[resource]
+permisson_editors 					= 	        "Template/CSS/JS Editors"
+permisson_editors_template				=		"Kelola File Template (.phtml)"
+permisson_editors_javascript 				=		"Kelola File Javascript (.js)"
+permisson_editors_css 					=		"Kelola File CSS (.css)"
+permisson_editors_language				=		"Kelola bahasa / file konfigurasi (.ini)"
+
+Member_Access_deny_desc 				= 	        "Anda tidak memiliki izin untuk mengakses halaman ini."
+Member_action_deny_desc					=		"Anda tidak memiliki izin untuk melakukan tindakan ini"
+editors_file_edit_success				=		"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span> %s file saved successfully."
+editors_file_delete_success				=		"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span> %s file deleted successfully."
+editors_file_restore_success				=		"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span> %s file restored successfully."
+editors_file_delete_err					=		"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span> An error occurred to delete file %s."
+editors_file_delete_confirm				=		"<span class='ui-icon ui-icon-notice' style='float:left; margin:0 0px 0px 0;'></span>Are You Sure to delete this file?"
+
+Editors_template_page_name				=		"Kelola File Template (.phtml)"
+Editors_css_page_name					=		"Kelola File CSS (.css)"
+Editors_js_page_name					=		"Kelola File Javascript (.js)"
+Editors_language_page_name				=		"Kelola Bahasa / File Config (.ini)"
+
+editors_file_not_writable				=		"<span style='font-weight:bold;color:#FF0000;'>(Tidak dapat ditulisi)</span>"
+editors_file_not_writable_err				=		"%s tidak bisa ditulisi"
+editors_file_not_found_post_err				=		"Tidak ada path file diposting."
+editors_file_not_found_err				=		"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Tidak ada path file diposting."
+
+editors_tab_template_global				=		"Global"
+editors_tab_template_modules				  =		"Modul"
+editors_tab_template_layouts				  =		"Layout"
+editors_tab_template_restore				  =		"Pulihkan"
+editors_tab_template_config				=		"Konfigurasi"
+
+editors_tab_common_select_file				=		"Silakan pilih file dari pohon kiri."
+

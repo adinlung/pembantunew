@@ -1,0 +1,43 @@
+[resource]
+permisson_articles 				          = "Mengelola Halaman Informasi"
+permisson_article_list		        	=	"Lihat Daftar Halaman Informasi"
+permisson_article_front_view	      =	"Lihat Beranda Halaman Informasi"
+Member_Access_deny_desc 	        	= "Anda tidak memiliki izin untuk mengakses halaman ini."
+article_list_delete_confirm		      =	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0 0px 0px 0;'></span>Apakah Anda yakin akan menghapus halaman informasi yang Anda pilih?"
+article_Access_deny_desc 		        = "Anda tidak memiliki izin untuk mengakses halaman ini."
+article_add_action_deny_desc 	      = "Menambah artikel tidak diperbolehkan untuk pengguna atau kelompok ini"
+article_save_success			          = "<span class='ui-icon ui-icon-check' style='float:left; margin:0px 10px 0px 0;'></span>Artikel sukses disimpan."
+article_save_err				            = "<span class='ui-icon ui-icon-notice' style='float:left; margin:0 7px 20px 0;'></span>Halaman Informasi tidak bisa disimpan."
+articles_list_delete_success	      = "<span class='ui-icon ui-icon-check' style='float:left; margin:0px 7px 0px 0;'></span>Halaman Informasi dengan nama %s berhasil dihapus."
+article_list_delete_err			        =	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0 7px 20px 0;'></span>Sebuah kesalahan telah terjadi saat menghapus halaman informasi."
+article_delete_perm				          = "Anda tidak meiliki izin untuk menghapus halaman informasi"
+articles_list_preview_err		        =	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0 7px 20px 0;'></span>Kesalahan terjadi saat melihat pratinjau halaman informasi bernama %s ."
+articles_list_publish_err		        =	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0 7px 20px 0;'></span>Kesalahan terjadi saat memperbarui status halaman informasi bernama %s."
+article_selected_err			          =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 10px 0px 0;'></span>Pilih paling sedikit satu halaman informasi"
+article_zero_order_success		      =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Perintah berhasil disimpan."
+article_zero_order_err			        =	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0 7px 20px 0;'></span>Perintah tdak boleh kosong!!"
+
+article_list_page_name			        =	"Daftar Halaman Informasi"
+article_list_draft_page_name	      =	"Daftar Konsep Halaman Informasi"
+article_list_page_add			          =	"Halaman Informasi Baru"
+article_list_page_title			        =	"Judul"
+article_list_page_meta			        =	"Meta"
+article_list_page_created_date	    =	"Tanggal Dibuat"
+
+article_menu_name				            =	"Info Halaman Informasi"
+article_menu_general_info		        =	"Informasi Umum"
+article_menu_meta_info			        =	"Informasi Meta"
+
+article_add_page_name			          =	"Tambahkan Halaman Informasi Baru"
+article_add_page_save			          =	"Simpan Halaman Informasi"
+article_page_create_menu_link	      	=	"Sambungkan Halaman ke Menu"
+
+article_edit_page_name			        =	"Edit Halaman Informasi"
+article_edit_page_save			        =	"Simpan halaman ini"
+articles_link_to_menu					=	"Menu Navigasi"
+articles_link_no_menu					=	"Gabungkan dengan menu....."
+articles_join_with_menu					=	"Gabungkan dengan menu"
+
+article_list_save_confirm				=	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0 0px 0px 0;'></span>Halaman Informasi ini sedang menunjuk ke beberapa menu yang dipilih. Apakah Anda yakin Anda ingin mengubah atau mengganti menu untuk mewakili Halaman Informasi ini?"
+
+article_list_tips_desc					=	"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Halaman Informasi adalah halaman konten yang mewakili informasi HTML Anda ke pengunjung. Hal ini memungkinkan Anda untuk dengan mudah membuat, mengedit, dan mempublikasikan indeks teks dan media digital di sebuah situs. Selain itu, umumnya diperlukan halaman Tentang Kami, Syarat dan Ketentuan, dan lain-lain."

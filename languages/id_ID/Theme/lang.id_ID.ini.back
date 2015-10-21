@@ -1,0 +1,65 @@
+[resource]
+Member_Access_deny_desc 			        = "Anda tidak memiliki izin untuk membuka halaman ini."
+
+template_list_delete_err			        = "<span class='ui-icon ui-icon-alert'  style='float:left; margin:0px 7px 0px 0px;'></span>Template tidak bisa dihapus."
+template_list_delete_success		      =	"<span class='ui-icon ui-icon-check'  style='float:left; margin:0px 7px 0px 0px;'></span>Template dengan nama %s Berhasil dihapus."
+template_list_delete_default_err	    =	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0px 7px 0px 0px;'></span>Template dengan nama %s tidak bisa dihapus karena ini default."
+insert_selected_file_err			        =	"<span class='ui-icon ui-icon-alert'  style='float:left; margin:0px 7px 0px 0px;'></span>Silahkan pilih, paling sedikit satu pilihan."
+template_list_delete_confirm		      =	"<span class='ui-icon ui-icon-alert'  style='float:left; margin:0px 7px 0px 0px;'></span>Konfirmasi untuk mengahpus template ini?"
+
+zero_file_size						            =	"(Di sini nilai '0' artinya ukuran file tak terbatas. Ukuran file maksimum adalah '209715200'.)"
+File_upload_success					          =	"<span class='ui-icon ui-icon-check' style='float:left; margin:-5px 7px 0px 0px;'></span>Template %s berhasil dipasang."
+File_extract_err					            =	"Ekstraksi file gagal."
+File_already_exists					          =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:-5px 7px 0px 0px;'></span>Template %s sudah dipasang."
+template_already_exists				        =	"Template sudah dipasang."
+template_install_err			          	=	"Tidak bisa dipasang!!"
+file_delete_err						            =	"Kesalahan terjadi ketika menghapus file bernama %s !!"
+file_delete_success					          =	"File '%s' berhasil dihapus."
+File_upload_ext_err					          =	"Tipe ekstensi file '%s' ini tidak diizinkan untuk diunggah!!"
+template_delete_perm				          =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:-5px 7px 0px 0px;'></span>Anda tidak memiliki izin untuk menghapus."
+
+theme_page_name						            =	"daftar Tema Jquery"
+theme_page_id						              =	"ID"
+theme_page_thumb					            =	"Foto Profil"
+theme_page_theme_name				          =	"Nama Tema"
+theme_page_desc						            =	"Keterangan"
+
+theme_template_new_install			      =	"Unggah Template Baru"
+theme_template_page_name			        =	"Daftar Template Frontend"
+theme_template_name					          =	"Nama Template"
+theme_template_page_author			      =	"Pemilik"
+theme_template_page_Developer		      =	"Pengembang"
+
+theme_default					              	=	"Template ini default"
+theme_do_default				            	=	"Klik untuk Mendefaultkan Template ini"
+template_list_default_err			        =	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0px 7px 0px 0px;'></span>Template %s tidak dapat default."			
+
+theme_menu_name						            =	"Pengelola Tema"
+theme_menu1							              =	"Template Jquery"
+theme_menu2							              =	"Template Frontend"
+theme_menu3									=		"Pengedit Template"
+
+template_install_config_file_err			=	"File Konfigurasi Tidak Ditemukan!!"
+template_install_config_file_info_err	=	"Template informasi yang tidak benar dalam file konfigurasi."
+
+
+theme_template_select_file						=		"Pilih Tipe File....."
+theme_template_html_file						=		"File HTML"
+theme_template_block_file						=		"File Blok Template"
+theme_template_css_file							=		"File CSS"
+theme_template_js_file							=		"File Javascript"
+
+theme_template_page_name_edit					=		"Template Editor"
+
+theme_template_page_file_type_select_err		=		"<span class='ui-icon ui-icon-notice' style='float:left; margin:0px 7px 0px 0px;'></span>Please select file type!!!"
+theme_template_parameter_emply					=		"Some Parameter Empty."
+theme_template_folder_not_exists				=		"Template Folder Does Not Exists!!!"
+theme_template_edit_fieldset					=		"Edit Template"
+theme_template_page_file_list					=		"File List"
+theme_template_page_select_theme_label			=		"Name of theme : "
+
+
+common_processing_language						=		"Template installation is processing....."
+
+
+theme_template_header_file						=		"Template Head File(s)"

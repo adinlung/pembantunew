@@ -1,0 +1,40 @@
+.video-slider {
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+
+.video-slider .slide {
+	background-color: #EEEEEE;	
+}
+
+
+.video-slider .timer-animation {
+	top: 10px;
+	right: 10px;	
+}
+
+
+.video-slider .title {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+
+.video-slider .content p {
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+
+.video-slider .link {
+	font-size: 14px;
+	position: absolute;
+	bottom: 0;
+}
+
+
+.video-slider .link a {
+	font-size: 12px;
+	color: #666666;
+}

@@ -1,0 +1,45 @@
+[resource]
+Member_Access_deny_desc 			            = "Anda tidak memiliki akses ke halaman ini."
+member_search_not_found				            =	"Hasil pencarian tidak ditemukan."
+insert_selected_file_err			            =	"Silahkan pilih file."
+
+dir_name_err						                  =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 7px 20px 0;'></span>Silahkan inputkan nama direktori!!!"
+Dir_created_success					              =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Direktori <b>%s</b> berhasil dibuat."
+Dir_created_err						                =	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0px 0px 0px 0;'></span>Direktori <b>%s</b> tidak bisa dibuat. Silahkan periksa izin folder anda."
+Dir_delete_success					              =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Direktori/File <b>%s</b> berhasil dihapus."
+Dir_delete_err						                =	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0px 0px 0px 0;'></span>Direktori/File <b>%s</b> tidak bisa dihapus. silahkan periksa izin folder Anda."
+root_folder_delete_err				            =	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0px 0px 0px 0;'></span>Anda tidak bisa menghapus direktori Root."
+select_folder_err					                =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 7px 20px 0;'></span>Silahkan pilih folder bukan file!!"
+
+Privilege_set_success				              =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Hak istimewa berhasil diatur untuk <b>%s</b>."
+Privilege_set_err					                =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Hak istimewa gagal diatur untuk <b>%s</b>."
+
+projects_privilege_list_page_name	        =	"Hak Istimewa Pengguna"
+projects_privilege_list_page_id		        =	"ID"
+projects_privilege_list_page_user	        =	"Nama Pengguna"
+projects_privilege_list_page_first	      =	"Nama Depan"
+projects_privilege_list_page_last	        =	"Nama Belakang"
+projects_privilege_list_page_org	        =	"Perusahaan"
+projects_privilege_list_page_email      	=	"Email"
+common_action					                  	=	"Kelola"
+projects_file_manager_page_message	      =	"Upload up to 100 file gambar (% s), masing-masing memiliki ukuran maksimum"
+
+projects_menu_name					              =	"Mengelola File"
+projects_menu1						                =	"Unggah File"
+projects_menu2						                =	"File Manager"
+projects_menu3						                =	"Hak Pengguna"
+
+projects_file_manager_dialog		          =	"File dan Folder"	
+
+projects_filepreview_list_page_name	      =	"Lihat file yang diupload"
+projects_filepreview_list_page_file	      =	"File"
+common_download					              	  =	"Unduh"
+common_set_privilege			              	=	"Atur Hak"
+
+projects_file_manager_page_name		        =	"Mengelola File"
+projects_file_manager_create_dir	        =	"Buat Direktori"
+projects_file_manager_set_priv		        =	"Atur Hak"
+projects_file_manager_upload_file	        =	"Unggah File"
+projects_file_manager_path_title	        =	"Jalur :"
+projects_file_manager_folder_tree       	=	"Pohon Folder"
+projects_file_manager_set_priv_for	        =	"Atur Hak untuk "

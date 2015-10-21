@@ -1,0 +1,78 @@
+[resource]
+permisson_geo_country			        =	"Pengelolaan Negara"
+permisson_geo_country_list 		    =	"Lihat Daftar Negara"		
+permisson_geo_country_add 		    =	"Tambah Negara Baru"
+permisson_geo_country_edit 		    =	"Edit Negara"
+permisson_geo_country_delete	    =	"Hapus Negara" 	
+
+	
+permisson_geo_state				        =	"Pengelolaan Provinsi"
+permisson_geo_state_list		      =	"Lihat Daftar Provinsi"	
+permisson_geo_state_add			      =	"Tambah Provinsi Baru"
+permisson_geo_state_edit 		      =	"Edit Provinsi"
+permisson_geo_state_delete 		    =	"Hapus Provinsi"
+
+	
+permisson_geo_city 				        =	"Pengelolaan Kota"
+permisson_geo_city_list 		      =	"Lihat Daftar Kota"
+permisson_geo_city_add 			      =	"Tambah Kota Baru"
+permisson_geo_city_edit 		      =	"Edit Kota"
+permisson_geo_city_delete 		    =	"Hapus Kota"
+
+geo_list_delete_confirm			      =	"<span class='ui-icon ui-icon-notice' style='float:left; margin:0 0px 0px 0;'></span>Apakah Anda yakin ingin menghapus bagian terpilih?"
+
+geo_country_list_page_name		    =	"Daftar Negara"
+geo_country_list_page_id		      =	"ID"
+geo_country_list_value 			      =	"Negara"
+geo_country_list_page_new		      =	"Negara Baru"
+geo_country_add_page_info		      =	"Tambah Negara Baru"
+geo_country_add_page_save		      =	"Kirimkan"
+
+geo_country_add_action_deny_desc  =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Penambahan negara tidak diperbolehkan untuk pengguna atau kelompok ini."
+geo_country_save_success		      =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Negara berhasil disimpan."
+geo_country_save_err			        =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Negara tidak bisa disimpan"
+geo_country_delete_success		    =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Negara berhasil dihapus."
+geo_country_delete_err			      =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Negara gagal dihapus."
+geo_country_for_page_delete_err	  =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Ada lebih dari satu kota atau wilayah di dalam negara ini."	
+geo_country_for_delete_all_err	  =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Ada lebih dari satu provinsi dari beberapa kota. Sehingga mereka tidak bisa dihapus!!"
+
+geo_state_list_page_name		      =	"Daftar Provinsi"
+geo_selected_err				          =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0 0px 0px 0;'></span>silahkan pilih paling sedikit satu item."
+geo_state_list_page_new			      =	"Provinsi Baru"
+geo_state_add_page_info			      =	"Tambah Provinsi Baru"
+geo_state_add_page_save			      =	"Kirimkan"
+geo_state_list_page_id			      =	"ID"
+geo_state_list_country_name 	    =	"Negara"	
+geo_state_list_state_name 		    =	"Provinsi"
+
+geo_state_add_action_deny_desc	  =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Penambahan provinsi tidak diizinkan untuk pengguna atau kelompok ini"
+geo_state_save_success			      =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Provinsi berhasil disimpan."
+geo_state_save_err				        =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Provinsi tidak bisa disimpan."
+geo_state_delete_success		      =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Provinsi berhasil dihapus."
+geo_state_delete_err			        =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Provinsi gagal dihapus."
+geo_state_for_page_delete_err   	=	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Ada lebih dari satu kota atau wilayah di dalam provinsi ini."	
+geo_state_for_delete_all_err	    =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Ada lebih dari saut kota atau wilayah di dalam provinsi ini. Jadi mereka tidak bisa dihapus!!"		
+
+geo_city_add_action_deny_desc	    =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Penamabahan Kota/Wilayah tidak diisinkan untuk pengguna atau kelompok ini"
+geo_city_save_success			        =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Kota/Wilayah berhasil disimpan."
+geo_city_save_err				          =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Kota/Wilayah tidak bisa disimpan."
+geo_city_delete_success			      =	"<span class='ui-icon ui-icon-check' style='float:left; margin:0px 0px 0px 0;'></span>Kota/Wilayah berhasil dihapus."
+geo_city_delete_err				        =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Kota/Wilayah gagal dihapus."
+geo_city_for_page_delete_err      =	"<span class='ui-icon ui-icon-alert' style='float:left; margin:0px 0px 0px 0;'></span>Ada lebih dari satu item di dalam Kota/Wilayah ini."	
+
+
+geo_city_list_page_name			      =	"Daftar Kota/Wilayah"
+geo_city_add_page_new			        =	"Kota/Wilayah Baru"
+geo_city_add_page_info			      =	"Tambah Kota/Wilayah Baru"
+geo_city_add_page_save			      =	"Kirimkan"
+geo_city_list_page_id			        =	"ID"
+geo_city_list_state_name		      =	"Provinsi"
+geo_city_list_city_name		        =	"Kota/Wilayah"
+
+
+
+
+geo_menu_title					          =	"Menu"
+geo_menu1						              =	"Pengelolaan Negara"
+geo_menu2					        	      =	"Pengelolaan Provinsi"
+geo_menu3						              =	"Pengelolaan Kota/Wilayah"			

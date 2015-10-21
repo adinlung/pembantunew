@@ -1,0 +1,69 @@
+<?php
+$front_template = Zend_Registry::get('front_template');
+$host = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$exceptions = array('Review-Write', 'testimoni');
+$conflict = false;
+
+foreach ($exceptions as $exception) {
+       if (false !== strpos($host, $exception)){
+          $conflict = true;
+          break;
+      }
+    }
+if ($conflict){ 
+echo $this->headLink()->setStylesheet('http://pembantucom.googlecode.com/git/template.min.css');
+echo $this->headScript()->setFile('application/layouts/scripts/'.$front_template['theme_folder'].'/vendor/scripts/jquery/jquery-1-8-3/jquery.js', '');
+echo $this->headScript()->setFile('application/layouts/scripts/'.$front_template['theme_folder'].'/vendor/scripts/jui/jui-1-9-2/green/jquery-ui-custom.js', '');
+echo $this->headLink()->setStylesheet('application/layouts/scripts/'.$front_template['theme_folder'].'/vendor/scripts/jui/jui-1-9-2/green/jquery-ui-custom.css');
+echo $this->headScript()->setFile('application/layouts/scripts/'.$front_template['theme_folder'].'/vendor/scripts/js/jquery.idTabs.min.js', '');
+echo $this->headScript()->setFile('application/layouts/scripts/'.$front_template['theme_folder'].'/vendor/scripts/js/common.js', '');
+$kendo_theme = 'Bootstrap';
+echo $this->headScript()->setFile($this->baseUrl().'/vendor/scripts/kendo/src/js/kendo.all.js');
+echo $this->headScript()->setFile($this->baseUrl().'/application/modules/Portfolio/js/uploader.js');
+echo $this->headLink()->setStylesheet($this->baseUrl().'/vendor/scripts/kendo/src/styles/kendo.common.css');
+echo $this->headLink()->setStylesheet($this->baseUrl().'/vendor/scripts/kendo/src/styles/kendo.'.strtolower($kendo_theme).'.css');
+}
+
+else { 
+echo $this->headLink()->setStylesheet('http://pembantucom.googlecode.com/git/template.min.css');
+echo $this->headScript()->setFile('http://cdn.jsdelivr.net/jquery/1.10.2/jquery.min.js', '');
+echo $this->headScript()->setFile('http://pembantucom.googlecode.com/git/global.min.js', '');
+echo $this->headScript()->setFile('http://cdn.jsdelivr.net/jquery.lazyload/1.9.1/jquery.lazyload.min.js', '');
+
+
+ }
+ 
+
+
+$locale = Eicra_Global_Variable::getSession()->sess_lang;
+$locale_arr = explode('_', $locale);
+$locale_direction = Eicra_Global_Variable::getSession()->site_direction;
+$style_direction = ($locale_direction == 'rtl') ? '_'.$locale_direction : '';
+
+if($locale_direction == 'rtl')
+{
+    echo $this->headLink()->setStylesheet('application/layouts/scripts/'.$front_template['theme_folder'].'/css/template'.$style_direction.'.css');
+    echo $this->headLink()->setStylesheet('application/layouts/scripts/'.$front_template['theme_folder'].'/css/general'.$style_direction.'.css'); 
+}	
+?>
+<script>
+$(document).ready(function(){
+$( document ).tooltip({
+			content: function() {
+				var element = $( this );
+				if(element.attr('link'))
+				{
+					 return (element.attr('title')) ? "<img  src='"+element.attr('link')+"' width='150' /><br />"+element.attr('title') : "<img  src='"+element.attr('link')+"' width='300' />";
+				}
+				else
+				{
+					if(element.attr('title'))
+					{
+						return element.attr('title');
+					}
+				}
+			},
+			track: true
+		});
+});
+</script>
