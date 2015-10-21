@@ -404,3 +404,13 @@ Time: 108.604 sec (1 m 48 s)
 
 -------------------------------------------------------------------------------
 
+
+----------- SCAN SUMMARY -----------
+Known viruses: 4033246
+Engine version: 0.98.7
+Scanned directories: 2819
+Scanned files: 37544
+Infected files: 0
+Data scanned: 1919.90 MB
+Data read: 1883.23 MB (ratio 1.02:1)
+Time: 97.271 sec (1 m 37 s)
